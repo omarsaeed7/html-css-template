@@ -1,0 +1,451 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #777;
+    box-sizing: border-box;
+}
+.container {
+    width: 1400px;
+    margin: auto;
+}
+.btn {
+    background-color: rgba(255, 17, 255, 0);
+    padding: 6px 50px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 1.2em;
+    color: #fff;
+    transition: all 0.5s;
+    text-transform: uppercase;
+}
+.btn:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+.clr {
+    clear: both;
+}
+/* start nav */
+nav {
+    position: fixed;
+    overflow: auto;
+    /* rather than clear */
+    z-index: 1;
+    width: 100%;
+}
+nav .logo {
+    float: left;
+    width: 70%;
+    padding: 10px 0;
+}
+nav .list {
+    float: left;
+    width: 30%;
+}
+nav .list ul {
+    list-style: none;
+}
+nav .list ul li a {
+    text-decoration: none;
+    float: left;
+    padding: 12px 10px;
+    text-transform: capitalize;
+    color: #fff;
+}
+nav .list ul li a:hover {
+    color: #f72408;
+}
+/* end nav */
+/* start header */
+header {
+    background-image: url(../imgs/wallhaven-gpk393_1920x1080.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+header .overlay-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(221, 0, 255, 0.208);
+}
+header .header-info {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    text-align: center;
+    color: #fff;
+}
+header .header-info h4 {
+    font-size: 60px;
+    font-weight: 100;
+    line-height: 1.2em;
+}
+header .header-info p {
+    font-size: 16px;
+    line-height: 1.5em;
+    margin-bottom: 90px;
+
+}
+/* end header */
+/* start first section */
+.history {
+    background: #f2f5f7;
+    padding: 40px 0;
+
+}
+.history-heading {
+    text-align: center;
+}
+.history-heading h2 {
+    color: #000;
+    font-size: 2em;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin: 30px auto 0;
+}
+.history-heading p {
+    width: 50%;
+    font-size: 1.1em;
+    margin: 40px auto;
+    color: #777;
+}
+.history-desc {
+    width: 100%;
+    height: 467px;
+    background-color: #fff;
+}
+.history-desc-info {
+    width: 50%;
+    float: left;
+    padding: 30px;
+    margin-left: 94px;
+}
+.history-buttons {
+    text-align: center;
+    margin: 2px 0 45px;
+    width: 100%;
+}
+.history-buttons button {
+    color: #777;
+    border: 1px solid #777;
+    margin-left: 8px;
+}
+.history-buttons button:hover {
+    background-color: #f72408;
+    color: #FFF;
+    border: 1px solid #f72408;
+}
+.btn-first {
+    background-color: #f72408;
+    color: #fff;
+}
+.history-image {
+    float: left;
+    position: relative;
+}
+.history-image img {
+    margin: -20px 20px;
+}
+.history-info {
+    margin-left: 64px;
+}
+.history-info h3 {
+    font-size: 1.4em;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+/* end first section */
+/* skills */
+.skills {
+    background: #740374;
+    color: #fff;
+    text-align: center;
+
+}
+.skills .skills-info .skills-icon img {
+    width: 30px;
+}
+.skill-container {
+    width: 100%;
+}
+.skills-info {
+    float: left;
+    width: 25%;
+    background-color: #021757;
+    text-align: center;
+}
+.skills-icon,
+.skills-desc {
+    width: 100%;
+    height: 250px;
+
+}
+.skills-icon img {
+    padding: 5em 0 1em 0;
+}
+.skills-icon {
+    background: #fff;
+    color: #000;
+    transition: background 0.5s, color 0.5s;
+}
+.skills-icon p {
+    font-size: 1.2em;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.skills-desc p {
+    padding: 3em;
+}
+.skills-info:hover .skills-icon {
+    background: #740374;
+    color: #fff;
+}
+/* experience section */
+.experience-vector {
+    width: 100%;
+
+}
+.vector-imgs,
+.vector-illustration {
+    float: left;
+    width: 45%;
+}
+.vector-illustration {
+    height: 100%;
+    margin: 0 0 0 3em;
+}
+.vector-imgs img {
+    margin: 10px 10px;
+}
+.vector-illustration h2 {
+    font-size: 2em;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin: 1.2em 0 1em 0;
+    color: #000;
+}
+.vector-illustration h4 {
+    font-weight: 400;
+    font-size: 1.2em;
+    margin: 0 0 1em 0;
+}
+.vector-illustration p {
+    margin: 0 0 2em 0;
+}
+.vector-illustration button {
+    color: #000;
+    border: 1px solid #777;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+.vector-illustration button:hover {
+    background-color: #f72408;
+    color: white;
+    border: 1px solid #f72408;
+
+}
+/* end experience section */
+
+/* start project */
+.project {
+    background-color: #5dd1e3;
+    width: 100%;
+    height: 550px;
+}
+.project h2{
+    color: #fff;
+    padding: 1em 0 0 0 ;
+}
+.project-section{
+    width: 100%;
+    
+}
+.project-img,
+.project-desc {
+    float: left;
+}
+.project-img {
+    margin-left: 2em;
+    width: 55%;
+    height: 253px;
+    background-image: url(../imgs/c1.jpg);
+    background-position: center center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+.project-desc {
+    width: 40%;
+    padding: 2.5em 0 4em;
+    background: #fff;
+}
+.project-desc h3 {
+    text-transform: capitalize;
+    font-size: 1.2em;
+    color: #000;
+    margin-bottom: 1.2em;
+    padding: 0 2em ;margin-left: 3em;
+}
+
+.project-desc p{
+    padding: 0 3em;
+}
+/* end project */
+.form{
+    width: 100%;
+    
+}
+.center{
+    margin: auto;
+    width: 55%;
+}
+.form input[type="text"],.form input[type="email"]{
+    display: inline-block;
+    margin: auto;
+    width: 40%;
+    margin: 0 1em 2em 0;
+    border: 1px solid #d4d5e0;
+    line-height: 48px;
+    background: transparent;
+    padding: 0 25px;
+    color: #777777;
+}
+.form input[type="text"]::placeholder,.form input[type="email"]::placeholder{
+text-transform: capitalize;
+}
+textarea::placeholder{
+    text-transform: capitalize;
+}
+textarea{
+    display: block;
+    width: 685px;
+    height: 100px;
+    border: 1px solid #d4d5e0;
+    line-height: 48px;
+    background: transparent;
+    padding: 0 25px;
+    color: #777777;
+    margin: 0 0 2em 0;
+}
+form button{
+    float: right;
+    margin: 0 4em 2em 0;
+    color: #000;
+    background-color: transparent;
+    border: 1px solid #000;
+    padding: 0.5em 2em;
+    border-radius: 40px;
+    text-transform: uppercase;
+    transition: color 0.5s, background 0.5s;
+}
+form button:hover{
+    background-color: #f72408;
+    color: #fff;
+    border: 1px solid #f72408;
+}
+
+/* end project*/
+
+/* start contact */
+.together{
+    background-color: #e5ff00;
+    margin: 2em auto;
+    padding: 4em;
+    text-align: center;
+    position: relative;
+}
+.together h2 {
+    text-transform: capitalize;
+}
+.together input{
+    border-radius: 20px;
+    border: none;
+    width: 30%;
+    margin: 2em;
+    padding: 10px 30px;
+}
+.together input::placeholder{
+    text-transform: capitalize;
+    color: #777;
+}
+.together button{
+    margin: 0 4em 2em 0;
+    color: #000;
+    background-color: transparent;
+    border: 1px solid #000;
+    padding: 0.5em 2em;
+    border-radius: 40px;
+    text-transform: uppercase;
+    transition: color 0.5s, background 0.5s;
+    position: absolute;
+    top: 56%;
+    right: 35%;
+}
+.together button:hover{
+    background-color: #f72408;
+    color: #fff;
+    border: 1px solid #f72408;
+}
+/* end contact */
+/* footer */
+footer{
+    padding-bottom: 20px;
+}
+.footer-h3{
+    text-transform: uppercase;
+    width: 100%;
+}
+.top{
+    padding: 2em 0 0 10em;
+
+    
+}
+footer ul{
+    list-style: none;
+    padding: 1.5em 0;
+    text-transform: capitalize;
+}
+footer a{
+    text-decoration:none;
+    color: #777;
+}
+footer a:hover{
+    color: #3c114c;
+}
+.about,.navigation,.links,.instafeed{
+    float:left;
+    width: 20%
+}
+.bottom{
+    padding: 3em 0;
+    overflow: auto;
+
+}
+.copyright{
+    float: left;
+    padding-left: 10em;
+}
+.social{
+padding:  0 15em;
+
+}
+.bottom img{
+    float: right;
+width: 3%;
+padding: 0 0.5em;
+}
+
